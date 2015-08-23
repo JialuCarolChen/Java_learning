@@ -1,0 +1,21 @@
+Introductory Java-J6
+
+*The while & do-while statements
+The while statement continuously executes a block while a condition is true.
+The do-while construct evaluates the condition at the end of the block rather than at the start.
+
+*The for statement
+A compact way to iterate over a set of values.
+The statement has three logical parts:
+-Initialization
+-Termination condition
+-Increment statement
+The "enhanced" for statement infers the initialization, termination and increment statement, given an array or collection
+
+*Branching statements (loops)
+The break statement terminates a loop construct
+-Unlabeled terminates the loop in which it is called
+-labeled terminates the loop named by the label
+The continue statement skips the current iteration of a loop
+-Unlabeled skips the current iteration of the loop in which it is called
+-Labeled skips the current iteration of the loop named by the label

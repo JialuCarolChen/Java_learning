@@ -1,0 +1,18 @@
+Inheritance 2-java.lang.Object, Final classes, methods and fields, Abstract classes and methods
+
+*Object as superclass
+In Java all classes ultimately inherit from one root class: java.lang.Object. Implemented methods:
+•  clone() returns copy of object
+•  equals(Object obj) establishes equivalence
+•  finalize() called by GC before reclaiming
+•  getClass() returns runtime class of the object
+•  hashCode() returns a hash code for the object
+•  toString() returns string representation of object
+
+*Final Classes and Methods
+-The final keyword in a class declaration states that the class may not be subclassed.
+-The final keyword in a method declaration states that the method may not be overridden.
+
+*Abstract Classes and Methods
+-The abstract keyword in a class declaration states that the class is abstract, and therefore cannot be instantiated (its subclasses may be, if they are not abstract).
+-The abstract keyword in a method declaration states that the method declaration is abstract; the implementation must be provided by a subclass.

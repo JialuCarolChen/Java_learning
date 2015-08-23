@@ -1,0 +1,41 @@
+Classes and Objects 1-O1
+
+*Class Declaration
+A class declaration will have the following, in order:
+-Any modifiers(public, private, etc)
+-The keyword class(static)
+-The class's name(first letter capitalized)
+-Optional superclass's name preceded by extends
+-Optional list of interfaces precede by implements
+-The class body surrounded by braces {}
+
+*Member Variable Declaration
+Three kinds:
+-Class and instance variables, called fields
+-Variables within a method, called local variables
+-Method arguments, called parameters
+Member variables will have the following, in order:
+-Any modifiers(public, private, etc)
+-The field's type
+-The field's name
+
+*Constructor
+A constructor is a special method that is automatically executed when an instance is created.
+Constructor differ from normal methods:
+-They have no return type.
+-They have the same name as the class.
+If no constructor is provided, the compiler will automatically call the constructor for the class's superclass
+
+*Creating objects
+A statement creating an object has three parts:
+-Declaration(a referring variable and type)
+-Instantiation(the new keyword)
+-Initialization(call to constructor)
+
+*Using objects
+Within a class, the class's fields and methods can be accessed
+directly, using the field/method name.
+Outside a class, an object reference followed by the dot'.'operator must be used:
+-Reference the object's fields-Object reference'.'field name
+-Call the object's methods-Object reference'.'method name, parenthese('('')')containing any arguments
+

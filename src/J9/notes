@@ -1,0 +1,10 @@
+J9-Lambda Expressions
+
+*Lambda Expressions
+Lambda expressions allow code to be passed as a parameter, just as data can be. Added to Java in version 1.8.
+•  Particularly useful for event handling; can pass behavior as an argument (‘do this when x happens’).
+•  Syntax
+–  Comma-separated formal parameters (x)
+–  Arrow (->)
+–  Body (either single expression or statement block, which may contain return)
+x->x>100 or x->{...returntrue;}

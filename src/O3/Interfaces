@@ -1,0 +1,13 @@
+Classes and Objects O3 - Interfaces
+
+ *Interfaces
+ An interface can be thought of as a contract. The implementer of a interface must implement the listed functionality.
+ Compared to a class:
+  -Uses interface keyword rather than class
+  -Cannot be instantiated (can't be created with new)
+  -Can only contain: Constants, method signatures (not the bodies), nested types
+  -Classes implement interfaces via implements keyword
+
+  *Interfaces as Types
+  An interface can be used as a type
+  -A variable declared with an interface type can hold a reference to a object of any class that implement that interface

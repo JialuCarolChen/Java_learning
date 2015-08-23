@@ -1,0 +1,39 @@
+Introduction Java-J7: Methods, Parameters, Return values
+
+*Methods
+1.A subroutine
+-Reusable code
+-Modularity, encapsulation
+2.May take arguments(parameters)
+3.May return a value
+
+*Method Declaration
+1.Method declarations will have the following, in order:
+-Any modifiers(public, private, etc)
+-The method's return type(void)
+-The method's name
+-The method's parameters, in parentheses
+-Any exceptions the method may throw
+-The method body(code)
+
+*Parameters
+1.Parameters are the mechanism for passing information to a method or constructor.
+2.Primitive types passed by value
+-Changes to parameter are not seen by caller
+3.Reference types passed by value
+-Changes to the reference are not seen by caller
+-Changes to the object referred to are seen by caller
+4.Your last parameter may in fact be more than one parameter(varargs), and treated as an array
+
+*Branching statements(methods)
+1.The return statement exits the current method
+
+*Return a Value from a Method
+1.Methods return to caller when:
+-all statements in method executed, or
+-a return statement is reached, or
+-the method throws an exception(later)
+2.Methods declared void do not return a value. All other methods must return a value of the
+declared type(or a subclass of the declared type, described later)
+
+

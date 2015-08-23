@@ -1,0 +1,59 @@
+JavaFX-Intro to JavaFX
+
+*JavaFX is a set of graphics and media packages that enables developers to design, create, test, debug,
+and deploy rich client applications that operate consistently across diverse platforms.
+
+*Designed for rich client applications
+-Graphics, UI's, video, audio, etc.
+
+*Java APIs, integrated with Java 8
+-Not to be confused with JavaFX 1.x, which is a scripting language, not a Java API
+-For older JDK, JavaFX is separately bundled, and must be separately installed
+
+*Replaces Swing
+
+*JavaFX HelloWorld
+
+*Extend javafx.application.Application
+-Override the start() method
+
+*Stage
+-Think of it as window
+
+*Scene
+-Container for a scene graph
+
+*StackPane
+-Organizer of nodes in scene graph
+-Others include FlowPane, TilePane, GridPane, etc
+
+*JavaFxSceneGraph
+Tree of nodes, with a single "branch" at the root
+-branch(may have children, eg Group, Region)
+-leaf(may not have children, eg Recrangle, Circle)
+
+*EventHandling
+-Branches (a conditional or switch select control flow)
+-Loops (a loop repeats control flow)
+-Methods (a Method call nests control flow)
+-Events (the occurrence of event changes control flow)
+--Event handling in UIs
+--Exception handling(later)
+
+*Events and Passing Code in Java
+An event handler will execute code you specify executed when a certain event occurs.
+Q: How do I pass code as an argument in Java?
+A: Lambda expressions (since Java 8), see unit J09
+
+*Events in JavaFX
+Events are instances of javafx.event.Event
+
+* Event Properties:
+-Event type
+-Source
+-Target
+
+*Event handlers
+-Pass the Lambda expression. For example:
+scene.setOnKeyTyped(event -> {..your code..})
+

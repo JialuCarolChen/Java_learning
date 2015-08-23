@@ -1,0 +1,21 @@
+*The Number Classes
+Normally you will represent numbers with the primitive types int, short, float,
+etc. Java includes ‘boxed’ object analogues to each of these: Integer, Short, Float, etc.
+•  Number classes have methods (primitives don’t) –  toString(), parseInt(), etc.
+•  Number classes have constants
+–  Integer.MIN_VALUE, Short.MAX_VALUE, etc
+•  Number classes have a space overhead –  They are instantiated as true objects
+
+*Autoboxing
+Classes such as Integer and Character are ‘boxed’ versions of the primitive types int and char
+(i.e. object versions of the primitives). Java offers automatic support for boxing and unboxing.
+•  Boxing: Integer i = 5; •  Unboxing: int j = i;
+
+*The Math class
+The Math class contains methods and constants useful for basic
+mathematics:
+•  Constants:Math.PIandMath.E
+•  Trigonometry:sin(),cos(),etc.
+•  Rounding:abs(),ceil(),floor(),etc.
+•  Comparisonfunctions:max(),min()
+•  Exponentials and logs: exp(), log(), pow(), etc •  Random number generation: random()

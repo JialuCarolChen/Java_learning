@@ -1,0 +1,14 @@
+Introductory Java-J5: if-then-else, switch
+
+*Control flow
+Control flow statements allow the execution of the program to deviate
+from a strictly sequential execution of statements.
+
+*if-then & if-then-else statements
+The if-then construct conditionally executes a block of code.
+The if-then-else construct conditionally executes one of two blocks of code.
+
+*switch statament
+The switch statement selects one path among many.
+Execution jumps to the first matching case.
+Execution continues to the end of the switch unless a break statement is issued
