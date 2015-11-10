@@ -25,7 +25,6 @@ public class JFXHelloWorld extends Application {
         hi.setOpacity(1.0);
         primaryStage.setOpacity(0.5);
         root.getChildren().add(hi);
-
         System.out.println("Before show");
         primaryStage.show();
         System.out.println("After show");

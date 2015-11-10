@@ -1,0 +1,4 @@
+*Generics
+Sometimes it is useful to parameterize a class with a type, T. Java generics allow us to do this.
+Rather than IntContainer, LongContainer, etc, we can just write Container<T>, and then create instances such as Container<Integer>, etc.
+Prior to the introduction of Java generics, programmers often used Object as a work-around because it can refer to any non-primitive type.

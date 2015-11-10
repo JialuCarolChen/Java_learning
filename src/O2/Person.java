@@ -3,7 +3,7 @@ package O2;
 /**
  * Created by carolchen on 31/07/2015.
  */
-public class Person {
+public class Person implements Comparable<Person>{
     private String name;
     private int age;
     private Sex sex;
@@ -16,5 +16,14 @@ public class Person {
 
     public String toString() {
         return name+", who is "+sex+", aged "+age;
+    }
+
+    @Override
+    public int compareTo(Person other) {
+        return name.compareTo(other.name);//sort student alphabetically
+    }
+
+    public int getAge() {
+        return age;
     }
 }

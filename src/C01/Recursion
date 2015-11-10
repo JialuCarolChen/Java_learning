@@ -1,0 +1,5 @@
+Recursive Algorithms
+A recursive algorithm references itself.
+A recursive algorithm is comprised of:
+•  one or more base cases
+•  a remainder that reduces to the base case/s

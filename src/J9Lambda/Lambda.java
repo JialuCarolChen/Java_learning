@@ -1,4 +1,4 @@
-package J9;
+package J9Lambda;
 
 import java.util.function.IntPredicate;
 

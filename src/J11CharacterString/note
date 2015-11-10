@@ -1,0 +1,22 @@
+*The Character Class
+The Character class boxes char, just like Integer boxes int.
+It contains methods and constants useful for manipulating characters:
+•  Tests:isLetter(),isDigit(),etc.
+•  Conversion: toString() (a single character string!)
+Escape sequences are used to represent characters that are hard to type:
+•  \’,\”,\\,\n, etc.
+
+*The String Class
+The String class is provided by Java to store and manipulate strings
+(by contrast, in C, a string is simply an array of characters). •  Implicit creation from literal:
+             String x = "foo";
+•  Thespeciallengthfield:
+if (x.length() > 3) ...
+•  Concatenation with “+”:
+String y = x + "bar";
+
+*Operations on Strings
+•  Get a character with charAt()
+•  Get a substring with substring()
+•  Others:split(),trim(),toLowerCase(),etc •  Finding:indexOf(),contains(),etc
+•  Replacing:replace(),replaceAll(),etc
