@@ -10,7 +10,7 @@ import static org.junit.Assert.assertFalse;
 public class ListTest {
     @Test
     public void testAdd() {
-        List<String> l = new ArrayList<>();
+        List<String> l = new ArrayListA<>();
         assertTrue(l.size()==0);
         l.add("a");
         assertTrue(l.size() == 1);
@@ -23,7 +23,7 @@ public class ListTest {
 
     @Test
     public void testRemove() {
-        List<String> l = new ArrayList<>();
+        List<String> l = new ArrayListA<>();
         l.add("a");
         l.add("bb");
         l.add("ccc");
@@ -40,7 +40,7 @@ public class ListTest {
 
     @Test
     public void testGet() {
-        List<String> l = new ArrayList<>();
+        List<String> l = new ArrayListA<>();
         l.add("a");
         l.add("bb");
         l.add("ccc");
@@ -51,7 +51,7 @@ public class ListTest {
 
     @Test
     public void testReverse() {
-        List<String> l = new ArrayList<>();
+        List<String> l = new ArrayListA<>();
         l.add("a");
         l.add("bb");
         l.add("ccc");

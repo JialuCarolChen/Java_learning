@@ -1,4 +1,4 @@
-package C01;
+package C1Recursion;
 
 import java.util.Scanner;
 

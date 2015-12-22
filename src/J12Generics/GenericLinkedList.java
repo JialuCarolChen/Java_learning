@@ -15,7 +15,7 @@ public class GenericLinkedList<T> {
     void add (T v) {
        if (next == null) next = new GenericLinkedList(v);
         else
-           next.add(v);
+            next.add(v);
     }
     @Override
     public String toString() {

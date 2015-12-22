@@ -1,6 +1,5 @@
 package ADT2;
 
-import AbstractDataTypes1.ArrayList;
 import AbstractDataTypes1.List;
 import org.junit.Test;
 

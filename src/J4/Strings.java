@@ -21,7 +21,7 @@ public class Strings {
         System.out.println("charAt: "+z.charAt(4));
         Random r = new Random();
         System.out.println("Random: "+z.charAt(r.nextInt(z.length())));
-        System.out.println("Substring: "+z.substring(1, 4));
+        System.out.println(z+" Substring: "+z.substring(1, 4));
         System.out.println("equals: "+x.equals("hello"));
         System.out.println("equals: "+x.equals("Hello"));
         System.out.println("toLowerCase: "+x.toLowerCase());
